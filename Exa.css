@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/woman-meditation-on-an-ocean-side-rock-royalty-free-image-1616630391.?crop=0.668xw:1.00xh;0.293xw,0&resize=640:*);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .plan {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .plan h2 {
+    color: #333;
+  }
+  
+  .plan p {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .plan ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .plan li {
+    margin-bottom: 10px;
+  }
+  
+  .plan button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .plan button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
