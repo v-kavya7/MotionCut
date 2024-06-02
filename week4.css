@@ -1,0 +1,79 @@
+body {
+    background-image:url(https://tenor.com/view/busy-bee-cute-squad-gossip-talk-gif-14465998 );
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+    margin: 0;
+  }
+  
+  .container {
+    justify-content: center;
+    background: #e3c062;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(232, 226, 226, 0.1);
+  }
+  
+  h1 {
+    color: rgb(64, 61, 64);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #4cae4c;
+  }
+  
+  ul {
+    list-style: lower-greek ;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  li button.edit {
+    color: #f0ad4e;
+  }
+  
+  li button.delete {
+    color: #d9534f;
+  }
